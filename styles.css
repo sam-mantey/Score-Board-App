@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1B244A;
+}
+
+.area {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height : fit-content;
+    min-height: 400px;
+    width: 70%;
+    min-width: 400px;
+    /*border: red solid 1px;*/
+    background: #1B244A;
+}
+#winner {
+    text-align: center;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(205, 59, 59);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.teams {
+    display: flex;
+    margin-top: 10%;
+}
+.team-score {
+    width: 50%;
+    height: 70%;
+    /*border: yellow solid 1px;*/
+    margin: auto 0;
+}
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.score-area {
+    height: 50%;
+    width: 60%;
+    /*border: green solid 1px;*/
+    margin: 20px auto 10px auto;
+    background: black;
+}
+.score {
+    height: 100%;
+    width: 80%;
+    /*border: indigo solid 1px;*/
+    margin: 0 auto;
+}
+p {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 127px;
+    color: #F94F6D;
+    text-align: center;
+}
+.btns {
+    /*border: pink solid 1px;*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+
+}
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: #1B244A;
+    height: 45px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#reset-btn {
+    margin: 0;
+    width: 90px;
+    font-size: 25px;
+}
+.rest-btn {
+    /*border: 1px black solid;*/
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color: #dddddd;
+
+}
+.end-btn {
+    width: 90px;
+    font-size: 25px;
+}
